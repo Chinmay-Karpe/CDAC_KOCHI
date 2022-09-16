@@ -1,0 +1,639 @@
+CTO - mechanical
+
+JAva architech, dotnet, dba, unix, tester
+ one man army
+
+
+		/Users/apple/CDAC
+		|     |     |
+		1     2     3
+		|
+	root directory
+
+
+				/  <-- this is the root in any unix os
+				|  it is called as the 'root' directory
+		-----------------------------
+		|
+		Users
+		|
+		apple
+		|
+		CDAC
+
+
+
+			MyComputer | This PC <-- root of the windows os
+			   |	
+	-------------------------------
+	|	|		|
+	C:	D:		E: <-- partitions
+	|
+	---------
+	|	|
+  windows	documents and settings
+	
+
+
+
+				who
+				|CODED,TESTED,DEPLOYING
+			-------------------
+			|		|
+			where		when
+			|place		|time - 2022 16 Sept Mid 9.54  
+		---------------------------------
+		|		|		|
+		why		what 		how
+		|		|		|
+		reason		inFORMation	IMPLEMENTATION
+						|
+					-----------------
+					|		|
+					SUCCESS	<-----	FEEDBACK
+
+		Applied knowledge is the WISDOM
+
+	AMDOCS - Chandrashekhar
+			Thought + feeling +/- + result + action
+
+	DEveloper
+	Tester
+	NE
+	Analyst
+	DBA
+	Programmer
+	Deployer
+	ROles??????
+
+
+	INTRODUCTION TO THE OS 
+
+
+
+			OPERATING SYSTEM
+				|
+			--------------------
+			|		|
+			DESKTOP		NETWORK BASED
+			|		|
+			WINDOWS		UNIX ( MULTI-USER)
+			(SINGLE		UBUNTU,SOLARIS,IBM-AIX
+			USER)		REDHAT-LINUX,HP-UX
+					MACINTOSH
+	
+			MACHINE1	MACHINE2(UNIX)
+			|YOU		|
+					---------------------------------
+					|	|	|	|	|
+					YOU	SISTER	BROTHER	FATHER	MOTHER
+			|WINDOWS-10 - HOST
+			VMWARE S/W / VMBOX
+			(UNIX|WINDOWS-8)- GUEST OS
+
+				SOFTWARE
+				 |
+			------------------------------------
+			|		|		|
+			SYSTEM		APPLICATION	TAILOR-MADE
+			|		|		|
+			OS		MS-WORD		ANY BANKING S/W
+
+
+mute mode for 
+		listen	speak reading writing
+		1	2	3	4
+		|	|	|	|
+		cal	cal	cal	cal[most important ]
+		water	water	water	water
+
+		THE WORD WATER IS NOT ACTUAL WATER
+	
+		"EXPERIENCE/FEELING" OF THE WATER
+		WATCH/TOUCH/HEAR/DRINK
+	
+		TASK OF THE SYSTEM SOFTWARE
+
+		1. DEVICE MANAGEMENT
+			TANGIBLE DEVICES
+			TOUCH
+			|
+			KEYBOARD | MONITOR | MOUSE | PRINTER | CPU
+			STORAGE [ HDD ] | CDROM | USB SLOT | N/W SLOT
+			SCANNER 
+			|
+			0 AND 1
+
+			0 OFF
+			1 ON
+
+	BINARY		0101010101010 - MACHINE LANGUAGE
+		
+
+
+		L	M	R
+		|	|	|
+		MACHINE	ASM	C PROGRAM
+		|	|
+		0011 - 	mov	INSTRUCTION TO RIGHT CLICK
+		0110 - 	cop	LEFT CLICK
+		0111 - 	rem	MIDDLE CLICK
+		0101 - 	creat	DRAG/DROP
+	001010101011
+	010101100111
+		
+	
+		2. PROCESS M
+				ls -l | wc
+
+		3. FILE M
+			/Users/apple/CDAC
+				ls - see the list of files
+				vi - edit the files
+				cat - see the content of the file
+
+		4. MEMORY M
+				ROM - read only memory 
+
+				RAM - random access memory
+
+				allocation of the memory
+				de-allocation of the memory
+
+				
+		5. USER INTERFACE
+				command line 	vs	graphical
+				|			|
+				typein 			wizards/ click
+						ok | cancel | apply | next | prev
+						drop down list boxex | radio button
+						check boxes
+			ATM - touch screen based
+				- push button based
+
+			
+		6. SECURITY M
+				security to your certificates | drawer | wallet
+									  |
+									only cash
+
+		PERMISSIONS =>	read	write	execute
+				
+
+		UNIX USERS =>	user	group	other
+
+				rakesh|ramesh|rajesh
+				|	|	|
+				w1	w2	w3
+				5000	7000	8000 = 20000
+	 	
+					family dinner party
+					|
+
+		user	= independent owner of his/her own wallet
+				
+		group = collection of trusted members
+			
+
+	1	FAMILY = rakesh ramesh rajesh father mother priya riya
+			  |	 |	|	|	|	|  |
+			  u1    u2      u3      u4      u5     u6  u7
+			 <------------group-------------------------->
+
+		other = neither the user nor the group member
+
+			servent/neightbour/ relative/tresspasser/house maid/stranger
+			friend/whole world
+
+		
+
+	2	picnic bus = 50 people ( 7 member ) = 43 people are others 
+						
+	3	restaurant = 150 people 
+
+	4	washroom = 10 
+	
+
+
+
+
+
+
+		7. I/O M
+				input = keyboard/mouse/scanner[ addharcard ]
+
+				output = monitor /printer/ scanner [ addharcard pdf|jpeg ]
+
+
+		8. STORAGE M
+				hard drive 
+				pen drive
+				cd drive 
+				network drive
+				CRUD operation
+
+				CREATE | READ | UPDATE | DELETE
+
+		9. APPLICATION INTERFACE/SERVICE
+
+		10. CPU SCHEDULING
+			round robin basis
+
+				Front		Rear
+				|		|
+			cpu = task1 | task2 | task3
+				59sec  29sec  14 sec
+
+				task2 | task3 | task1
+				task3 | task1 | task2
+				task1 | task2 | task3
+				
+			cpu = task1
+			|
+			1sec	
+
+			cpu = task2
+			|
+			1sec
+
+			cpu = task3
+			|
+			1sec
+
+		12. RESOURCE M
+			keyboard	process		file
+			tangible	intangible	intangible
+
+
+		pen | textbook | laptop | table | bike | car
+		mobile | charger
+
+		r u utilizing these resources to uplift your career
+
+		
+		13. JOB ACCOUNTING
+			generating logs
+			running some commands at a scheduled time
+			 
+		14. COMMAND INTERPRETER
+			
+		15. N/W M - NN 
+
+		16. CONTROLLER - take care of series of events|operations
+				and thier interlinks
+				
+				event management system =
+					guest
+					juice /drink
+					food
+					car parking
+					wallet parking
+					ice managmennt
+
+
+			moulana | pandit
+
+			guest bride groom side
+			photographer | cinamatographer  
+		17. BOOTING - waking up of the OS - from the sleep mode 
+
+
+
+
+
+		Applications are running!!!!!
+
+
+				Bank - offline [ building ]
+				|1,2,3,4 <-- row - cash withdraw
+			--------------
+			|
+			Customer
+			9 to 1
+			8 to 5
+
+	BankCustomer   Employee	  Parent of the school kid
+
+		
+		1. Remote capability
+				network wires | wifi 
+				network socket 
+
+		2. Highly Available - 24 x 7 - HA versions
+
+		3. Multiprocessing | Multithreading capability 
+
+		4. Pooling of resources
+			POOL
+		
+		5. Caching of resources
+			CACHE - uniqueness | identified by a unique customer
+			
+			Water|Tea|Coffee Vending Machine
+			|	Empty paper cups
+			|	are they stacked ???? 
+			|	"POOL of the empty cups"
+		----------------
+		|
+		user1	user2	user3 
+		|	|	|
+		cup	cup	cup	
+		
+		shopping mall
+		|	shopping trollies [ POOL ]
+		|
+	---------------
+	|	|	|
+	cust1	cust2	cust3
+	trolley	
+	goods
+
+	Cart 
+	sign
+	5
+
+		6. Transaction management
+			ACID
+			A atomicity
+
+			create a file
+			|
+		1	abc.txt name
+		2	50mb size
+		3	location
+		4	user/group/other
+	
+			C consistency
+			
+			I Isolation
+			D Durability
+
+		7. Secured trasanction
+			read write execute
+	
+
+
+
+
+
+
+
+	Multiprocessing		
+
+
+	Process
+	|
+	heavy activity
+	|
+	ms word <-- its a process
+	|
+	you type your data
+	|
+line1	Hello, how are you? I am fin, howz lif?
+line2	aldsfjl asdlkfjl asdlkfjlsdjf 
+line3   lsajdfl alsdjflsfd s df
+
+	thread1 -> allows to type the line unconditionally
+	thread2 -> checking every word against the built in dictionary
+	thread3 -> to underline the mismatched/incorrect word
+
+		thread is light weight 
+
+	1 Make Idli
+	|Mother | wife
+	|
+	t1 - me : get the raw rice
+	t2 - daughter : get the water
+	t3 - son : soak the rice in the water
+	|
+	t4 - mother : make the batter/soda/salt
+	t5 - wife : put batter in the idlimaker 
+	t6 - maid : serve it
+
+
+	2 Making Sambar
+	|
+	t1 t2 t3 t4....
+
+
+	3 Serving Idli Sambar
+		
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gazing at the sky
+heart is pumping - process1
+blood is being  oxygenated by the lungs - process2
+blood is being prepared by the liver - process3
+kidney is cleaning the blood - process4
+
+	ls -l			wc
+	|			|
+	showing files		counting words/lines/characters
+	|			|
+	Process1		Process2	Process3
+	|			|		|	
+------------------	--------------	---------------
+|	|	|	|  |  |    | |  |  | | |     |
+t1	t2	t3	t1 t2 t3
+
+ls is showing			wc should not stop
+thousands of lines
+|
+20 seconds
+
+		ls | wc
+
+
+t1 of ls   and t1 of wc can interact
+|		     |	
+200		    l w c
+|
+300		    l w c 
+|
+400		    l w c	
+|			
+600		    l w c
+
+1			2		3		
+Idli maker	   sambar maker		chutney maker
+|			|		|
+4		    
+8
+16
+32
+
+4		5			6
+the serviceman1	the servicman2    the serviceman3 
+
+
+
+
+serve the water
+
+dedicated threads
+
+dish washer thread
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+t1      t2      t3      t4 t5
+
+
+		Machine1		Machine2	
+		|			|
+		+-----------------------+
+		|			|	
+		Machine3		Machine4
+
+
+
+1 DL			The bank's database 	
+|
+2 BL			TheBank Application [ server application ]
+|
+3 PL	Mobile		Mobile	Mobile	Mobile	PC	ATM	VisaMachine  UPI 3rdparty
+	|		|	|	|	|	|	|	     |	 |
+	banking		SMS	IVR	ChatBot Browser	Cash	Card|DC|CC  scan gpay etc	
+	Android/Mac				Chrome
+	bankApp					https://icicibank.com
+
+
+RAHUL SONAVANE
+HAD TO LEAVE AT 4PM
+
+		cardless transaction
+
+ENTIRE LEARNING CDAC
+|
+exit
+
+8.00 am
+
+
+		E-Restaurant
+		|
+DL	database - data logic   person1 [ chef ]
+| [ NO ADMISSION ]
+| 
+BL	cash/coupon counter person2 [ cashier ]
+|	|
+|	40 Rs <-pay -> Token | slip 	
+|
+PL
+|
+Serving Counter person3 [ service man ]
+|
+snacks							breakfast options
+Panipuri | sev puri | bhel puri 			| dosa | wada | idli
+
+			lunch/dinner
+			|
+			fried rice
+
+	STANDARD CHARTERED
+	PIZZAHUT
+	MACD
+	britishairways.com
+
+		behrozbiryani.com
+
+1	Machine1 	  Hardware<-- website is here on this machine
+2	|Operating SYSTEM Software IS FUNCTIONING.....
+3	|BEHROZ BIRYANI   Application should be running - to give service to machine2
+	|[ RESPONSE ]
+	|
+	|sending a request
+	| singup|signin
+	| menu
+	| what?qty?payment?
+	|
+	| Operating SYSTEM | Android
+	Machine2	Machine3	OldMobile [ dial the number ]
+	[mobile]	[PC]		[ not a smart phone ]
+	scope1		scope2		scope3
+	|
+	behroz biryani application
+	CLIENT SIDE APPLICATION [ REQUEST ]
+	HUNDREDS OF CUSTOMERS
+
+	see the biryani | pic
+
+	no taste | no smell
+	ratings | reviews
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+Interactive Voice Response
+	1800046565 <-dial
+
+	Press 1 for english
+	Press 2 to change your language
+	press 5 to talk customer care
+	press 3 to know your balance
+	press 9 to cancel the cheque
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
