@@ -1,0 +1,106 @@
+
+	Process
+
+
+		H/W
+		|
+		Kernel
+		|
+		An operating system
+		|
+		Shell
+
+
+	South Indian Restaurant
+		|
+	-------------------------------------------------------------
+	|	   |		|		|		|
+	<-----------jobs------------->		<------jobs-------->
+	process1  process2	process3	process4	process5
+	|	     |		|		|		|
+   Creating	Creating	Creating	Take Order	ServeIt
+	Idlis	   Sambar	  Chutney	from cust	to the cust
+	p1		p2		p3	p4		p5
+	<---------running---------------->	<----keep taking/serving--->
+
+
+
+	ServeIt --->On the table
+	|
+	Parcel <-- pack it
+	|
+	Delivery <-- drive
+	|
+	Home - delivered
+
+
+	process6
+	|
+	Bill to
+	the cust
+	p6
+	
+
+	Process : lets play volleyball 
+		1. Memory [ space ]
+		2. Time 
+		3. Storage | Files 
+		4. CPU 
+
+	Process Control Block
+	------------------------
+
+
+	new
+	  |1
+	  |               interrupted
+	  +----|		|	+-------> Completed/Or
+	       |2		CPU	|	 Terminated 4
+	     Runnable ----------> Running
+	     [ ready ]	  |		3
+			waiting
+			  |
+		     ------------
+		     |          |
+		    I/O		sleep [ 3.1]
+		  [3.2]
+
+	teracopy [ third party ]  10 secs to copy 1 GB
+	vs	
+	copy [ windows ]	 60 secs to copy 1 GB
+
+
+			Counter1		Counter2
+			|   |			|
+			FC  SC				
+			|   |6			
+		180	5   1 1mnt| 20
+			    4			2 1mnt
+			    6			3 1mnt
+		            3
+			    2
+			     
+
+
+	executing	<----	o/s	----->		executing	
+	p1						p2
+	|						|
+	|						|
+	|						|
+	-------------------------------------------------
+		 
+
+			Heap Memory = store the allocation of the data
+			free memory = flexible memory
+			
+
+			[ 10000 sq/ft playground is available ]
+				|
+		allocate space for playing "volleyball" 400 sq ft area
+		allocate space for playing "football" 5000 sq ft area
+		-----------
+		5400 sq
+
+		Stack 
+		
+				
