@@ -1,0 +1,17 @@
+using the set command you can see all the environment variables
+
+
+
+PS1='\h:\W \u\$ '
+
+	PS1 = system's prompt sign
+
+
+	\h -- host name
+
+	\W working directory
+
+	\u -- username
+	\$ -- mean the $ sign to show it 
+
+

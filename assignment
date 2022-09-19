@@ -1,0 +1,108 @@
+
+
+
+			/ <-- if u are here
+			| a1. cd home/centos/myfamily/parent/mother
+			| a2. cd /home/centos/myfamily/parent/mother
+		------------------
+		|		|
+		home		bin
+		|
+		centos
+		| <- now u are here, and goto uncle folder
+		| c. cd neighbours/uncle
+		|
+	----------------------------------------------------
+	|				|		|
+	myfamily			neighbours	relatives
+	   |				|		|
+	---------------------		-------		----------
+	|	|	 |		|    |		|	|
+	parent	brothers sisters    uncle  aunty     uncle    aunty
+	|			    <-- now u are here, goto sisters
+    ---------	d. cd ../../myfamily/sisters  OR     RELATIVE PATH	
+    |      |	d. cd /home/centos/myfamily/sisters  ABSOLUTE PATH
+  father  mother <--NOW U ARE HERE, AND GOTO CENTOS
+
+	   b. cd ../../..    OR
+	   b. cd /home/centos
+
+
+	e. cd  bin   <-- wont work 
+	e. cd  /bin 
+
+
+
+
+T			/
+			|  cd bin
+		-----------------
+		|		|
+1		home		bin
+		|		 -> cd office <--this wont work
+2		centos		 -> cd /home/centos/office
+		|			this will work
+		|			ABSOLUTE PATH
+		|
+		|whatever u make  file/directory - is made here
+		|
+3		office
+		  |    -> cd bank <-- this would WORK
+		  |              RELATIVE PATH
+		  |    -> cd bin  <-- wont work 
+		  |    -> cd /bin <-- would work
+		-----------------
+		|		|
+4		bank		mail
+		|		|
+	-------------	----------------
+	|	|	|		|
+5	icici hdfc     inbox         outbox
+	|	|	|		|
+6  salary.txt car.loan  letter.doc    application.xls
+
+TASK : how to rename this car.loan
+
+	1. first check your current directory
+		a. pwd
+		   /home/centos
+
+	2. then enter into the desired folder, ie hdfc folder
+		
+		b. cd office
+		c. pwd  <-- check again 
+
+	
+	3. Issue ls to verify the old files
+		d.	ls
+	
+	4. issue the mv command to rename the file
+
+		syntax : mv oldfilename newfilename
+		d. mv car.loan  mycar.myloan
+
+
+	4. issue the ls command to verify the changed name
+		
+		e. ls 
+
+
+
+
+	cp -r   is used to copy the entire folder
+
+			-r means recursive 
+
+
+	rm filename
+
+	rmdir folder
+
+
+
+
+
+
+
+
+

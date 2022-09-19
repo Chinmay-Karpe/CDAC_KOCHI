@@ -1,0 +1,27 @@
+
+
+	H/W - cpu 010101010 binary
+	|
+	Kernel - ASM 
+	|
+	Shell - Interactive mediator between the kernel and the user
+	|
+	Application USer <--- $ ls
+			      $ chmod 
+
+
+
+	Shell - interactive program
+
+
+	/bin/sh - stephen bourne --- The Bourne Shell
+
+	/bin/bash -- Bourne Again SHell
+
+
+	/bin/csh -- Tenex C Shell - Bill Joy
+
+	/bin/ksh --- David Korn --- Korn Shell
+
+
+	

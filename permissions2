@@ -1,0 +1,166 @@
+
+
+ Day 3
+  File Permissions
+  Kernel | Shell | application
+  Shell basics
+  Shell variables | user's | system's variables
+  Shell Scripting
+
+
+File Permission
+-------------------
+
+	In Unix there are three types of users
+
+	1. User / Owner of the file / directory
+
+		rakesh --   mywallet.xls
+		shreya --   mypurse.xls 
+		sumit  --   mybag.xls
+
+	2. Group - logical collection of trusted users
+
+		friends [ rakesh, shreya, sumit ]
+		 |
+		group name
+
+	3. other - neither the user nor the group member
+
+		servent, watchman, gatekeeper, 
+		housemaid, liftman, gardener
+
+	
+	There are three types of permission 
+
+			
+	read  - to view the content of a file/directory
+
+	write - to modify the file/directory
+
+	execute - to run the file 
+		  to enter into a directory
+
+		allowing ---> +
+		not-allowing ---> - revoking - denying	
+
+	user  - 
+	group - friends [ rashmi, sailee, jay, neeta, rajesh ]
+	other - gatekeeper, gardner, watchman
+
+    uuu ggg ooo
+    ||| ||| |||
+  - rw- r-- ---  1 rashmi  friends  50 Sep 17 15:18 purse.txt
+  - rw- r-- ---  1 sailee  friends  60 Sep 17 12:30 wallet.txt
+  d rwx r-x r--  1 jay     friends  35 Sep 16 10:30 schoolbag
+  - rwx r-x r-x  1 neeta   friends  10 Sep 15 10:40 umbrella
+  - rwx --- ---  1 rajesh  friends  9  Sep 14 09:30 bat
+  - --- rwx ---  1 arjun   friends  1  Sep 13 08:30 racket
+  |
+- means file
+d means directory
+			x			y
+	===================================================	
+			file	    |	directory
+	===================================================	
+		|  cat filename	    |  ls - to view/read its 
+1	read	|		    |       content
+	---------------------------------------------------
+		|  modify it/not    | modify its content
+2	write	|  delete it	    | cat >, cp, rm, mv
+		|  vi filename	    | mkdir, rmdir
+	---------------------------------------------------
+		|  to run the file  | to enter into the 
+3	execute	|  as if it is a    | folder using the 
+		|  command          | cd command
+	---------------------------------------------------
+		1x.  cat filename
+		1y.  ls directoryname
+		2x.  vi filename
+		2y.  cd office, then rm raj, mkdir newfolder etc
+		3x.  ./first.out <-- execute this code
+		3y.  cd jupitor OR cd CDAC  etc
+		
+		Applying permissions
+		| + to grant
+		| - to revoke
+	------------------
+	|		|
+	characters	octals
+	|		|
+	read = r	4
+	write = w 	2
+	execute = x	1
+
+
+	chmod = is used to change the mode [ permissions]
+	
+	chmod userType+-permissionType  file/directory
+
+READ	
+	1. ls -l prince -- see the current permissions
+	2. cat prince --- will work 
+	3. chmod u-r prince -- remove the read effect for you
+	4. ls -l prince --- now see the permissions	
+	5. cat prince -- WONT WORK
+	
+	1. ls -l prince -- see the current permissions
+	2. cat prince --- will work 
+	3. chmod u+r prince -- add the read effect for you
+	4. ls -l prince --- now see the permissions	
+	5. cat prince -- WONT WORK
+
+WRITE
+
+	1. ls -l pop.txt
+	2. cat >> pop.txt --- can append
+	3. cat pop.txt -- see the changes
+	2. chmod u-w pop.txt -- deny the write
+	3. cat >> pop.txt	-- permission denied
+
+
+EXECUTE
+
+	1. ls -l first
+	2. ./first -- run it
+	3. chmod u-x first -- remove teh executableness
+	4. ./first -- now it wont run
+
+	5. chmod u+x first -- allow the executable ness
+	6. ./first
+
+-------------------------
+
+DIRECTORY
+
+EXECUTE 
+	1. ls -ld jupitor --- see this folder's permmissions
+	2. chmod u-x jupitor -- remove the executableness
+	3. cd jupitor --- WONT RUN - permission denied since x is missing
+
+	4. chmod u+x jupitor
+
+
+WRITE
+	1. ls -ld jupitor -- it would show the jupitor's permission
+				( and not its content)
+	2. chmod u-w jupitor
+	3. cd jupitor
+	4. cat > newfile --- DENIED -- SINCE WRITE IS REVOKED
+
+	5. chmod u+x jupitor
+	6. cat > newfile --- would work
+
+READ
+	1. ls -l jupitor -- will always show the content of this folder
+	2. chmod u-r jupitor -- will remove read permission to see its content
+	3. ls -l jupitor -- PERMISSION DENIED TO READ
+	4. chmod u+x jupitor 
+	5. ls -l jupitor --- would work
+
+
+
+
+
+
+	

@@ -1,0 +1,9 @@
+
+
+pwd - print working directory
+cd  - to goto the home directory of the current user
+cd / - directly goto the root directory of the system ie /
+cd .. - goto the previous/parent directory
+cd dirname - change into that directory
+
+
