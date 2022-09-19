@@ -16,3 +16,15 @@ do
 	echo $y
 	y=$((y-1))
 done
+
+echo "-----------"
+for((i=1;i<=5;i++))
+do
+    echo i is $i
+done
+
+
+
+
+
+
