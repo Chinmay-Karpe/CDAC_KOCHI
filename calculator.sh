@@ -1,16 +1,44 @@
 
 
-	Enter number1 : 50 <-|
+echo "Enter number 1 : "
+read num1
 
-	Enter number2 : 40 <-|
+echo "Enter number 2 : "
+read num2
 
-	What you want to do ? + <-|  ( +,-,*,/ is the input )
+echo "1. Add + "
+echo "2. Subtract -"
+echo "3. Multiply * "
+echo "4. Divide /"
+echo "5. Exit x"
+echo "Enter your choice : "
+read choice
 
-	Answer is 90
-
-	if [ $myinput = '+' ]
+if [ $choice = '+' ]
+then
+	ans=$((num1+num2))
+else
+	if [ $choice = '-' ]
 	then
-		echo answer is $((num1+num2))
+		ans=$((num1-num2))
+	else
+		if [ $choice = '*' ]
+		then
+			ans=$((num1\*num2))
+		else
+			if [ $choice = '/' ]
+			then
+				ans=$((num1/num2))
+			else
+				if [ $choice = 'x' ]
+				then
+					echo "Exiting"
+				fi
+			fi	
+		fi
+	fi
+fi
 
+echo "Answer is : $ans"
 
 
